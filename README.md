@@ -1,6 +1,10 @@
 # OS_PROJECT
 OS project on Parallel processing of algorithms 
-
+## **Group Member**  
+| Name  | Student Id | Email |
+| ------------- | ------------- | ------------- |
+| Muhammad Murad  | 21K-3064  | K213064@nu.edu.pk  |
+| Ayesha Irshad | 21K-4734  | K214734@nu.edu.pk  |
 ## **Project Introduction** 
 
 This project is about determining the most efficient programming technique out of the following three: Serial, OpenMp, and pthreads. This is done by experimenting each of these techniques on the following three sorting algorithms: Binary-Insertion Sort, Selection Sort, and Cocktail Sort. The serial, obviously, falls under the sequential programming, while the other two are used to achieve Parallel Programming.
