@@ -9,8 +9,8 @@ This project is about determining the most efficient programming technique out o
 In this project, we aim to discover the most efficient technique which is done by executing programs of which each contain an array, with unsorted elements, and using a timer to record the sorting time of each technique. 
 ## **Binary Insertion Sort:**
 ### **Serial:**
-
-<code>#include <stdio.h>
+```
+#include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
 #include <time.h>
@@ -43,7 +43,8 @@ int binary_search(int Num1,int left,int right)
 	{
 		return binary_search(Num1,left,mid_int-1);
 	}		
-}
+	}
+	
 
 void insertion_sort()
 {
@@ -62,15 +63,12 @@ void insertion_sort()
 		j++;
 		num1[j]=num3;
 	}		
-}
-
-void fill_array(int size) {
+	}void fill_array(int size) {
     int i;
     srand(time(NULL));
     for (i=0; i<size; i++)
         num1[i] = rand() % 100;
 }
-
 void file_create(double start,double stop)
 {
 	FILE *ptr;
@@ -88,8 +86,8 @@ void file_create(double start,double stop)
 	}
 	fclose(ptr);
 }
-int main()
-{
+	int main()
+	{
 		
 	fill_array(SIZE);
 	double Start1=clock();
@@ -105,8 +103,8 @@ int main()
 	
 	file_create(Start1,stop1);	
 	return 0;
-	}</code>
-
+	}
+```
 
 Output Screen Shot
 
