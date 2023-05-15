@@ -1,15 +1,16 @@
 # OS_PROJECT
 OS project on Parallel processing of algorithms 
 
-**Project Introduction** 
+## **Project Introduction** 
 
 This project is about determining the most efficient programming technique out of the following three: Serial, OpenMp, and pthreads. This is done by experimenting each of these techniques on the following three sorting algorithms: Binary-Insertion Sort, Selection Sort, and Cocktail Sort. The serial, obviously, falls under the sequential programming, while the other two are used to achieve Parallel Programming.
 
-**Project Goal**
+## **Project Goal**
 In this project, we aim to discover the most efficient technique which is done by executing programs of which each contain an array, with unsorted elements, and using a timer to record the sorting time of each technique. 
-**Binary Insertion Sort:**
-**Serial:**
-#include <stdio.h>
+## **Binary Insertion Sort:**
+### **Serial:**
+
+<code>#include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
 #include <time.h>
@@ -104,7 +105,7 @@ int main()
 	
 	file_create(Start1,stop1);	
 	return 0;
-}
+	}</code>
 
 
 Output Screen Shot
