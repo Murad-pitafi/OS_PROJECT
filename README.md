@@ -8,9 +8,10 @@ This project is about determining the most efficient programming technique out o
 ## **Project Goal**
 In this project, we aim to discover the most efficient technique which is done by executing programs of which each contain an array, with unsorted elements, and using a timer to record the sorting time of each technique. 
 <details>
-	<summary>Binary Insertion Sort:</summary>  
-	  
-### **Serial:**  
+	<summary>Binary Insertion Sort:</summary><blockquote>  
+	<details>  
+		<summary>     Serial:</summary>  
+		   
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -109,6 +110,8 @@ void file_create(double start,double stop)
 ```
 
 ### **Output Screen Shot**
+</blockquote>
+</details>
 </details>
 
 
