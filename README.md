@@ -830,6 +830,7 @@ void swap(int* a, int* b){
 <details>
 	<summary>Cocktail Sort</summary>
 	<blockquote>  
+
 ### Project Time While Running Cocktail Search Code  
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/104616632/762f6c78-b835-4530-a46a-203540f61684)
 <details>
