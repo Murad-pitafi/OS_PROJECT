@@ -302,7 +302,7 @@ int main()
 <details>
 		<summary> OpenMP</summary>
 
-// openmp
+```C  
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
@@ -478,7 +478,9 @@ int main()
 	file_create(Start1,stop1);
 	return 0;
 }
-		![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/a325c560-21fb-4971-aef2-577bc9090aec)
+```  
+### Output  
+![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/a325c560-21fb-4971-aef2-577bc9090aec)
 
 </details>
 </blockquote>		
