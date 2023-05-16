@@ -14,7 +14,7 @@ In this project, we aim to discover the most efficient technique which is done b
 <details>
 	<summary>Binary Insertion Sort:</summary><blockquote>  
 	<details>  
-		<summary>     Serial:</summary>  
+		<summary>Serial:</summary>  
 		   
 ```C
 #include <stdio.h>
@@ -111,6 +111,9 @@ void file_create(double start,double stop)
 	file_create(Start1,stop1);	
 	return 0;
 	}
+```
+### Output:  
+		  
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/b35dc444-0b78-4228-8118-605f40eefa16)
 
 // parallel 
