@@ -110,15 +110,17 @@ void file_create(double start,double stop)
 	
 	file_create(Start1,stop1);	
 	return 0;
-	}
-```
+	}  
+		
+```  
 ### Output:  
 		  
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/b35dc444-0b78-4228-8118-605f40eefa16)
 		</details>
 <details>
-		<summary> parallel</summary>
-
+		<summary> parallel</summary>  
+	
+```C  
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -291,10 +293,11 @@ int main()
 	print_array(n2,SIZE);
 	file_create(Start1,stop1);
 	return 0;
-
+}  
+```
+### Output:  
 ![Screenshot from 2023-05-16 22-51-07](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/4638094e-65b8-4914-bdbb-afb0a73dcd55)
 
-		
 </details>
 <details>
 		<summary> OpenMP</summary>
