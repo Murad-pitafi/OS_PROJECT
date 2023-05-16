@@ -477,11 +477,11 @@ int main()
 }
 		![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/a325c560-21fb-4971-aef2-577bc9090aec)
 
-	</details>
-	</blockquote>		
+</details>
+</blockquote>		
 		
 		
-
+</details>
 **Selection Sort**		
 // Serial
 #include <stdio.h>
