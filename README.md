@@ -17,7 +17,7 @@ In this project, we aim to discover the most efficient technique which is done b
 ### Time Takne
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/104616632/5cf6e060-c955-45cd-a251-9ec06eabc2b2)
 
-	<details>  
+<details>  
 		<summary>Serial:</summary>  
 		   
 ```C
