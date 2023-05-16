@@ -115,7 +115,7 @@ void file_create(double start,double stop)
 ### Output:  
 		  
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/b35dc444-0b78-4228-8118-605f40eefa16)
-
+		</details>
 // parallel 
 #include <stdio.h>
 #include <stdlib.h>
