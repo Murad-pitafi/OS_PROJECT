@@ -492,6 +492,8 @@ int main()
 <blockquote>
 <details>
 	<summary>Serial</summary>
+	
+```C  	
 #include <stdio.h>
 #include <time.h>
 #include <wait.h>
@@ -562,14 +564,16 @@ void selectionSort(int* A, int n)
 }
 
 void swap(int* a, int* b){ int temp = *a;    *a = *b;    *b = temp; }
-
-		
+```  
+### Output  		
 		
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/22e06393-001e-4d92-adc3-d2ec25a3e2bc)
 </details>				 
 <details>
 
 <summary>parallel</summary>	
+
+```C	
 #include <stdio.h>
 #include <time.h>
 #include <wait.h>
@@ -725,12 +729,14 @@ void display(int* arr, int n){
     }
     
 }
-
-			
+```
+### Output  			
 ![Screenshot from 2023-05-16 22-39-03](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/9bb2f068-3a8a-44c1-9e26-6b949c93c7df)
 </details>
 <details>
 	<summary>openmp</summary>
+
+```C
 #include <stdio.h>
 #include <time.h>
 #include <wait.h>
@@ -813,6 +819,8 @@ void swap(int* a, int* b){
     *a = *b;
     *b = temp;
 }
+```  
+### Output:
 
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/87450783/e94b2532-1bed-4320-933e-aa9a342537d7)
 
