@@ -13,6 +13,10 @@ This project is about determining the most efficient programming technique out o
 In this project, we aim to discover the most efficient technique which is done by executing programs of which each contain an array, with unsorted elements, and using a timer to record the sorting time of each technique. 
 <details>
 	<summary>Binary Insertion Sort:</summary><blockquote>  
+	
+### Time Takne
+![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/104616632/5cf6e060-c955-45cd-a251-9ec06eabc2b2)
+
 	<details>  
 		<summary>Serial:</summary>  
 		   
