@@ -1260,9 +1260,9 @@ int main(void)
 	
 | Method  | Size = 10 | Size = 100 | Size = 10000 |
 | ------------- | ------------- | ------------- | ------------- |
-| Serial  | Content Cell  | Content Cell  | Content Cell  |
-| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
-| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
+| Serial  | (Burst Time): 4.00 , (Clock Time): 2  | (Burst Time): 32.00 , (Clock Time): 30  | (Burst Time): 164537.00 , (Clock Time): 164577  |
+| Multi Threads  | (Burst Time): 940.00 , (Clock Time): 1056  | (Burst Time): 937.00 , (Clock Time): 980  | (Burst Time): 74640.00 , (Clock Time): 74699  |
+| OpenMp  | (Burst Time): 168.00 , (Clock Time): 163  | (Burst Time): 194.00 , (Clock Time): 189  | (Burst Time): 172233.00 , (Clock Time): 121245  |
 
 
 ### Cocktail Sort  
