@@ -14,9 +14,6 @@ In this project, we aim to discover the most efficient technique which is done b
 <details>
 	<summary>Binary Insertion Sort:</summary><blockquote>  
 	
-### Time Takne
-![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/104616632/5cf6e060-c955-45cd-a251-9ec06eabc2b2)
-
 <details>  
 		<summary>Serial:</summary>  
 		   
@@ -835,8 +832,6 @@ void swap(int* a, int* b){
 	<summary>Cocktail Sort</summary>
 	<blockquote>  
 
-### Project Time While Running Cocktail Search Code  
-![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/104616632/762f6c78-b835-4530-a46a-203540f61684)
 <details>
 	<summary>Serial</summary>
 
