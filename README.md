@@ -1269,6 +1269,6 @@ int main(void)
 	
 | Method  | Size = 10 | Size = 100 | Size = 10000 |
 | ------------- | ------------- | ------------- | ------------- |
-| Serial  | Content Cell  | Content Cell  | Content Cell  |
-| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
-| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
+| Serial  | (Burst Time): 0.000004 , (Clock Time): 1   | (Burst Time): 0.000045 , (Clock Time): 42  | (Burst Time): 0.273624 , (Clock Time): 273747  |
+| Multi Threads  | (Burst Time): 0.000840 , (Clock Time): 725  | (Burst Time): 0.001007 , (Clock Time): 819  | (Burst Time): 0.134229 , (Clock Time): 67942  |
+| OpenMp  | (Burst Time): 0.000251 , (Clock Time): 237  | (Burst Time): 0.000466 , (Clock Time): 451  | (Burst Time): 0.216477 , (Clock Time): 110289  |
