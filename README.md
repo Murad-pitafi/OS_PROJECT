@@ -1245,4 +1245,30 @@ int main(void)
 ![image](https://github.com/Murad-pitafi/OS_PROJECT/assets/104616632/c78771a6-f7f0-45a3-9b2b-ce95113eac23)  
 </details>
 </blockquote>
-</details>
+</details>  
+	
+## Conclusion  
+### binary insertion Sort  
+	
+| Method  | Size = 10 | Size = 100 | Size = 10000 |
+| ------------- | ------------- | ------------- | ------------- |
+| Serial  | (Burst Time): 3.0 , (Clock Time): 1  | (Burst Time): 47.00 , (Clock Time): 43  | (Burst Time): 88857.00 , (Clock Time): 88862  |
+| Multi Threads  | (Burst Time): 611.00 , (Clock Time): 524   | (Burst Time): 604.00 , (Clock Time): 465  | (Burst Time): 57380.00 , (Clock Time): 65731   |
+| OpenMp  | (Burst Time): 109.00 , (Clock Time): 106  | (Burst Time): 115.00 , (Clock Time): 113   | (Burst Time): 47541.00 , (Clock Time): 23816 |
+
+### Selection Sort
+	
+| Method  | Size = 10 | Size = 100 | Size = 10000 |
+| ------------- | ------------- | ------------- | ------------- |
+| Serial  | Content Cell  | Content Cell  | Content Cell  |
+| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
+| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
+
+
+### Cocktail Sort  
+	
+| Method  | Size = 10 | Size = 100 | Size = 10000 |
+| ------------- | ------------- | ------------- | ------------- |
+| Serial  | Content Cell  | Content Cell  | Content Cell  |
+| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
+| Multi Threads  | Content Cell  | Content Cell  | Content Cell  |
